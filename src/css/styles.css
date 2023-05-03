@@ -28,6 +28,36 @@
 @import url('./catalog.css');
 @import url('./hero.css');
 
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 375px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 :root {
   --bgc-hero: #141414;
 

@@ -23,8 +23,13 @@ ul {
   list-style: none;
 }
 
-a,
-.link {
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -36,4 +41,19 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+:focus {
+  outline: none;
 }
