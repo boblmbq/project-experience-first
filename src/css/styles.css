@@ -1,19 +1,19 @@
 @font-face {
-  font-family: Epilogue;
+  font-family: 'Epilogue';
   font-weight: 300;
   src: url('../fonts/epilogue-light-webfont.woff2') format('woff2'),
     url('../fonts/epilogue-light-webfont.woff') format('woff');
 }
-  
+
 @font-face {
-  font-family: Epilogue;
+  font-family: 'Epilogue';
   font-weight: 400;
   src: url('../fonts/epilogue-regular-webfont.woff2') format('woff2'),
     url('../fonts/epilogue-regular-webfont.woff') format('woff');
 }
 
 @font-face {
-  font-family: Epilogue;
+  font-family: 'Epilogue';
   font-weight: 600;
   src: url('../fonts/epilogue-semibold-webfont.woff2') format('woff2'),
     url('../fonts/epilogue-semibold-webfont.woff') format('woff');
@@ -21,9 +21,38 @@
 
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./footer.css');
+@import url('./sale.css');
+@import url('./new-watches.css');
+@import url('./about-us.css');
+@import url('./catalog.css');
+@import url('./hero.css');
 
 :root {
   --bgc-hero: #141414;
+
   --bgc-main: #ffffff;
+
+  --bgc-main-desc: #ffffff80;
+
   --bgc-pull: #1e2827;
+
+  --font-clear: #14141480;
+
+  --font-regular: 400;
+
+  --font-light: 300;
+
+  --font-semibold: 600;
+
+  --font-z-lead: 14px;
+
+  --font-z-h-main: 32px;
+}
+
+body {
+  font-family: 'Epilogue', serif;
+  font-weight: var(--font-regular);
+  color: var(--bgc-hero);
+  font-size: var(--font-z-lead);
 }
