@@ -1,8 +1,29 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+@font-face {
+  font-family: Epilogue;
+  font-weight: 300;
+  src: url('../fonts/epilogue-light-webfont.woff2') format('woff2'),
+    url('../fonts/epilogue-light-webfont.woff') format('woff');
+}
+  
+@font-face {
+  font-family: Epilogue;
+  font-weight: 400;
+  src: url('../fonts/epilogue-regular-webfont.woff2') format('woff2'),
+    url('../fonts/epilogue-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: Epilogue;
+  font-weight: 600;
+  src: url('../fonts/epilogue-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/epilogue-semibold-webfont.woff') format('woff');
+}
+
 @import url('./reset.css');
 @import url('./header.css');
+
+:root {
+  --bgc-hero: #141414;
+  --bgc-main: #ffffff;
+  --bgc-pull: #1e2827;
+}

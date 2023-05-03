@@ -111,3 +111,17 @@ GitHub.
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
    скрипта будет указано в чем проблема.
+
+
+
+https://www.w3schools.com/howto/howto_css_flip_card.asp
+
+https://animate.style/
+
+https://all-animation.github.io/
+
+https://www.minimamente.com/project/magic/
+
+https://michalsnik.github.io/aos/
+
+https://codepen.io/dan_postnov/pen/gjBqPb
