@@ -1,9 +1,144 @@
 
-@media screen and (max-width: 767px) {
+.container{
+     
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px 0 10px;
 }
 
-@media screen and (min-width: 768px) {
+.footer{
+background: #1E2827;
+padding: 40px 0 20px;
 }
 
-@media screen and (min-width: 1280px) {
+.footer-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+  .footer-contact-logo{
+      margin-bottom: 40px;
+  }
+
+.footer-contact-icon{
+  width: 40px;
+  height: 40px;
+  
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+
+.footer-contact-phone{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  margin-bottom: 20px;
+}
+
+.footer-contact-location{
+  width: 141px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  /* or 129% */
+
+  letter-spacing: -0.02em;
+
+  color: #FFFFFF;
+}
+
+.footer-meny-list{
+  margin-left: auto;
+}
+
+.footer-meny-items{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.footer-media-list{
+  display: flex;
+  gap: 14px;
+  margin: 40px 0 80px;
+}
+
+.footer-media-item{
+  width: 40px;
+  height: 40px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+
+.footer-bottom-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-rights{
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: -0.02em;
+
+color: #C6CDD1;
+}
+
+.footer-terms-list{
+  display: flex;
+  gap: 14px;
+}
+
+.footer-terms-items{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  
+  letter-spacing: -0.02em;
+  
+  color: #C6CDD1;
+}
+
+@media screen and (min-width:375px){
+  .container{
+      padding:0 10px;
+      width: 355px;
+      
+
+  }
+}
+
+
+@media screen and (min-width:768px){
+
+  .container{
+    width: 736px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0;
+   
+  }
+  .footer-wrapper{
+      flex-wrap: nowrap;
+      justify-content: space-between;
+  }
+  .footer-meny-list{
+      margin: 0;
+  }
+  .footer-media-list{
+      margin: 0;
+  }
 }
