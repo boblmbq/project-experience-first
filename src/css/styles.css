@@ -1,17 +1,26 @@
+@import url('reset.css');
+@import url('new-watches.css');
+@import url('footer.css');
+@import url('sale.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('catalog.css');
+@import url('about-us.css');
+@import url('burger-menu.css');
+@import url('buy-now.css');
+
 @font-face {
   font-family: 'Epilogue';
   font-weight: 300;
   src: url('../fonts/epilogue-light-webfont.woff2') format('woff2'),
     url('../fonts/epilogue-light-webfont.woff') format('woff');
 }
-
 @font-face {
   font-family: 'Epilogue';
   font-weight: 400;
   src: url('../fonts/epilogue-regular-webfont.woff2') format('woff2'),
     url('../fonts/epilogue-regular-webfont.woff') format('woff');
 }
-
 @font-face {
   font-family: 'Epilogue';
   font-weight: 600;
@@ -19,18 +28,9 @@
     url('../fonts/epilogue-semibold-webfont.woff') format('woff');
 }
 
-@import url('./reset.css');
-@import url('./header.css');
-@import url('./footer.css');
-@import url('./sale.css');
-@import url('./new-watches.css');
-@import url('./about-us.css');
-@import url('./catalog.css');
-@import url('./hero.css');
-
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 375px;
+    max-width: 353px;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: auto;
@@ -40,7 +40,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 736px;
     padding-left: 16px;
     padding-right: 16px;
     margin-right: auto;
@@ -50,7 +50,7 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
+    max-width: 1199px;
     padding-left: 12px;
     padding-right: 12px;
     margin-right: auto;
