@@ -5,6 +5,9 @@
     margin-right: auto;
     padding: 0 10px 0 10px;
 }
+.footer a{
+  color: inherit;
+}
 
 .footer{
 background: #1E2827;
@@ -28,6 +31,10 @@ padding: 40px 0 20px;
   border-radius: 10px;
 }
 
+/* .footer-contact-phone a{
+  color: inherit;
+} */
+
 
 .footer-contact-phone{
   font-weight: 400;
@@ -40,7 +47,13 @@ padding: 40px 0 20px;
   margin-bottom: 20px;
 }
 
+/* .footer-contact-phone a{
+  color: inherit;
+} */
+
+
 .footer-contact-location{
+  
   width: 141px;
 
   font-weight: 400;
@@ -52,9 +65,15 @@ padding: 40px 0 20px;
 
   color: #FFFFFF;
 }
+/* .footer-contact-location a{
+  color: inherit;
+} */
 
 .footer-meny-list{
   margin-left: auto;
+}
+.footer-meny-list a{
+  color: inherit;
 }
 
 .footer-meny-items{
