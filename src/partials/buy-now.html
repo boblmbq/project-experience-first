@@ -1,0 +1,85 @@
+<div class="backdrop">
+  <div class="modal-container">
+    <button type="button" class="modal-close-button">
+      <svg class="modal-close-icon">
+        <use href="../public/sprite.svg#close"></use>
+      </svg>
+    </button>
+
+    <div class="modal-div-wrapper">
+      <div class="modal-swaddle">
+        <picture class="modal-watch-img">
+          <source srcset="../img/catalog/modal-watch-1x.jpg 1x" />
+          <source srcset="../img/catalog/modal-watch@2x.jpg 2x" />
+          <img
+            class="modal-image"
+            src="./images/mobile-watch-img1x.jpg"
+            alt="watch"
+            width="276"
+            height="274"
+          />
+        </picture>
+        <p class="modal-text">
+          Tube Watch S42 Date Steel With Black <span>Case</span>
+        </p>
+        <p class="modal-price">€395</p>
+      </div>
+
+      <form class="modal-form">
+        <label class="modal-label">
+          <span class="modal-desc">Full name</span>
+          <input
+            type="text"
+            class="modal-input"
+            name="user_name"
+            placeholder="Enter your full name"
+            pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+            required
+            minlength="2"
+          />
+        </label>
+
+        <label class="modal-label">
+          <span class="modal-desc">Email</span>
+          <input
+            type="email"
+            class="modal-input"
+            name="user_email"
+            placeholder="Enter your email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+        </label>
+
+        <label class="modal-label">
+          <span class="modal-desc">Card number</span>
+          <input
+            type="tel"
+            class="modal-input"
+            name="user_card_number"
+            placeholder="Enter card"
+            pattern="[0-9{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+            required
+            title="xxxx-xxxx-xxxx-xxxx"
+          />
+        </label>
+
+        <label class="modal-label">
+          <span class="modal-desc">Comments</span>
+          <textarea
+            name="user_message"
+            class="modal-textarea"
+            placeholder="Enter your text"
+          ></textarea>
+        </label>
+
+        <button type="submit" class="modal-button-submit">SUBMIT</button>
+        <p class="modal-item">
+          By clicking on “Submit” button, you agree to our
+          <a href="" class="modal-item">Privacy Policy</a>, and allow Promodo to
+          use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
