@@ -72,9 +72,6 @@ padding: 40px 0 20px;
 .footer-meny-list{
   margin-left: auto;
 }
-.footer-meny-list a{
-  color: inherit;
-}
 
 .footer-meny-items{
   font-weight: 400;
@@ -98,6 +95,10 @@ padding: 40px 0 20px;
 
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
+
+}
+.footer-media-icon-item{
+  stroke: #FFFFFF;
 }
 
 
