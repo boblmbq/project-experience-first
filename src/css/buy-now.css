@@ -65,10 +65,26 @@
 .modal-input {
     display: block;
     height: 42px;
+    font-weight: var(--font-regular);
+    font-size: 12px;
+    line-height: 1.1;
+    color: var(--bgc-hero);
     border: 1px solid rgba(20, 20, 20, 0.5);
     border-radius: 8px;
     margin-bottom: 18px;
     padding-left: 16px;
+}
+
+.modal-input:not(:placeholder-shown):required:valid {
+    outline: 2px solid green;
+}
+
+.modal-input:not(:placeholder-shown):required:invalid {
+    outline: 2px solid red;
+}
+
+.modal-input:focus {
+    outline: none;
 }
 
 .modal-textarea {
@@ -80,9 +96,13 @@
     line-height: 1.1;
     letter-spacing: -0.02em;
     margin-bottom: 20px;
-    color: rgba(20, 20, 20, 0.5);
+    color: var(--bgc-hero);
     border: 1px solid rgba(20, 20, 20, 0.5);
     border-radius: 8px;
+}
+
+.modal-textarea:focus {
+    outline: none;
 }
 
 .modal-button-submit {
@@ -135,7 +155,8 @@
         }
     
         .modal-input {
-            min-width: 295px
+            min-width: 295px;
+            margin-bottom: 18px;
         }
     
         .modal-textarea {
@@ -165,6 +186,7 @@
 @media screen and (min-width: 768px) {
     .modal-input {
             min-width: 368px;
+            margin-bottom: 18px;
         }
     
         .modal-textarea {
