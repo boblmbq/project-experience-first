@@ -10,7 +10,7 @@
 }
 
 .footer{
-background: #1E2827;
+background:var(--bgc-pull);
 padding: 40px 0 20px;
 }
 
@@ -37,12 +37,12 @@ padding: 40px 0 20px;
 
 
 .footer-contact-phone{
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: var(--font-regular);
+  font-size: var(--font-z-lead);
   line-height: 1.29;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: var(--bgc-main);
 
   margin-bottom: 20px;
 }
@@ -56,31 +56,35 @@ padding: 40px 0 20px;
   
   width: 141px;
 
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: var(--font-regular);
+  font-size: var(--font-z-lead);
   line-height: 1.29;
   /* or 129% */
 
   letter-spacing: -0.02em;
 
-  color: #FFFFFF;
+  color: var(--bgc-main);
 }
 /* .footer-contact-location a{
   color: inherit;
 } */
 
 .footer-meny-list{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 18px;
   margin-left: auto;
 }
 
 .footer-meny-items{
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: var(--font-regular);
+  font-size: var(--font-z-lead);
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: var(--bgc-main);
 }
 
 .footer-media-list{
@@ -98,7 +102,7 @@ padding: 40px 0 20px;
 
 }
 .footer-media-icon-item{
-  stroke: #FFFFFF;
+  stroke: var(--bgc-main);
 }
 
 
@@ -109,12 +113,12 @@ padding: 40px 0 20px;
 }
 
 .footer-rights{
-  font-weight: 400;
+  font-weight: var(--font-regular);
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: -0.02em;
 
-color: #C6CDD1;
+color: var(--bgc-main);
 }
 
 .footer-terms-list{
@@ -123,7 +127,7 @@ color: #C6CDD1;
 }
 
 .footer-terms-items{
-  font-weight: 400;
+  font-weight: var(--font-regular);
   font-size: 12px;
   line-height: 1.17;
   
@@ -133,12 +137,12 @@ color: #C6CDD1;
 }
 
 @media screen and (min-width:375px){
-  .container{
+  /* .container{
       padding:0 10px;
       width: 355px;
       
 
-  }
+  } */
 }
 
 
@@ -154,11 +158,36 @@ color: #C6CDD1;
   .footer-wrapper{
       flex-wrap: nowrap;
       justify-content: space-between;
+      margin-bottom: 152px;
   }
   .footer-meny-list{
-      margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 18px;
   }
   .footer-media-list{
       margin: 0;
   }
+  .footer-bottom-wrapper{
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .footer-terms-list{
+    gap: 18px;
+  }
+  .footer-media-item{
+    width: 44px;
+    height: 44px;
+  }  
+}
+
+@media screen and (min-width:1280px){
+.container{
+  width: 1199px;
+  margin-left: 12px;
+  margin-right: 12px;
+
+}
 }
