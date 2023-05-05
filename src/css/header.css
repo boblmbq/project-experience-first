@@ -1,9 +1,44 @@
+.header-container {
+  background-color: #ccc;
+}
+.header-logo-link {
+  display: flex;
+}
 
+.header-nav {
+  display: flex;
+}
+
+.header-burger {
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.header-link-site {
+  display: flex;
+}
+
+.site-link {
+  display: block;
+}
+
+.header-address-num {
+  display: block;
+}
 
 @media screen and (max-width: 767px) {
+  address {
+    display: none;
+  }
+  .header-link-site {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .header-burger{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1280px) {
