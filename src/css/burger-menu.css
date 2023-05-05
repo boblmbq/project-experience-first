@@ -1,4 +1,27 @@
+@import url("styles.css");
 
+.wrapper-m-modal{
+  background-color: var(--bgc-pull);
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal-container{
+  display: flex;
+  position: relative;
+}
+
+.header-close-modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+}
+
+.header-close-svg{
+  stroke: var(--bgc-main);
+}
 @media screen and (max-width: 767px) {
 }
 
