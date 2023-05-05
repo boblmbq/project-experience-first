@@ -155,7 +155,7 @@
         }
     
         .modal-input {
-            min-width: 295px;
+            width: 100%;
             margin-bottom: 18px;
         }
     
@@ -185,7 +185,7 @@
 
 @media screen and (min-width: 768px) {
     .modal-input {
-            min-width: 368px;
+            width: 100%;
             margin-bottom: 18px;
         }
     
@@ -196,7 +196,7 @@
 
 @media screen and (min-width: 1280px) {
     .modal-input {
-            min-width: 508px;
+            width: 100%;
             margin-bottom: 24px;
         }
     
