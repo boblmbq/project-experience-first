@@ -124,6 +124,12 @@
     .catalog-img-desc {
         display: none;
     }
+    .catalog-popup {
+        padding: 20px;
+    }
+    .catalog-popup-text {
+        margin-bottom: 16px;
+    }
     .catalog-btn {
         width: 122px;
         height: 50px;
@@ -131,6 +137,8 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .container {
+    }
     .catalog {
         margin-top: 160px;
         margin-bottom: 160px;
@@ -140,6 +148,7 @@
     }
     .catalog-list {
         margin-bottom: 80px;
+        gap: 64px 24px;
     }
     .catalog-wrap-img {
 
@@ -149,5 +158,8 @@
     }
     .catalog-img-desc {
         display: block;
+    }
+    .catalog-popup-text {
+        margin-bottom: 20px;
     }
 }
