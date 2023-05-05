@@ -148,7 +148,8 @@
 
 @media screen and (max-width: 767px) {
     .modal-container {
-            padding: 40px 20px;
+        width: 335px;
+        padding: 40px 20px;
         }
     
         .modal-watch-img {
@@ -185,12 +186,20 @@
 }
 
 @media screen and (min-width: 768px) {
+    .modal-container{
+        width: 744px;
+    }
+
     .modal-input {
             margin-bottom: 18px;
         }
 }
 
 @media screen and (min-width: 1280px) {
+    .modal-container{
+        width: 904px;
+    }
+
     .modal-input {
             margin-bottom: 24px;
         }
