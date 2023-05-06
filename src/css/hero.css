@@ -97,7 +97,7 @@ button{
 
 @media screen and (max-width: 767px) {
   .container {
-    width: 360px;
+    max-width: 360px;
   }
 
   .hero-main {
@@ -106,7 +106,7 @@ button{
   .hero-title {
     font-family: 'Epilogue', serif;
     display: flex;
-    height: 120px;
+
     width: 335px;
     color: #ffffff;
     font-weight: 600;
@@ -195,7 +195,7 @@ button{
 }
 @media screen and (min-width: 768px){
   .container {
-    width: 768px;
+    width: 736px;
   }
 
   .hero-main {
@@ -207,7 +207,6 @@ button{
   .hero-title {
     font-family: 'Epilogue', serif;
     display: flex;
-    height: 186px;
     width: 653px;
     color: #ffffff;
     font-weight: 600;
@@ -324,6 +323,9 @@ button{
   }
   .swiper-staffs {
     width: 436px;
+  }
+  .hero-text-wrapper{
+    height: 90px;
   }
   .slide-numbers-text-final::before {
     content: '';
