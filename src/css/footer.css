@@ -29,7 +29,7 @@ padding: 40px 0 20px;
       margin-bottom: 40px;
   }
 
-<<<<<<< Updated upstream
+
 .footer-contact-icon{
   fill: var(--bgc-main);
   stroke: var(--bgc-main);
@@ -38,20 +38,6 @@ padding: 40px 0 20px;
   
  
 }
-=======
-  .footer-contact-icon{
-    
-   
-    fill: #C6CDD1;
-    stroke: #C6CDD1;
-  }
-
-
->>>>>>> Stashed changes
-
-/* .footer-contact-phone a{
-  color: inherit;
-} */
 
 
 .footer-contact-phone{
@@ -64,11 +50,6 @@ padding: 40px 0 20px;
 
   margin-bottom: 20px;
 }
-
-/* .footer-contact-phone a{
-  color: inherit;
-} */
-
 
 .footer-contact-location{
   
@@ -83,9 +64,6 @@ padding: 40px 0 20px;
 
   color: var(--bgc-main);
 }
-/* .footer-contact-location a{
-  color: inherit;
-} */
 
 .footer-meny-list{
   display: flex;
@@ -129,7 +107,7 @@ padding: 40px 0 20px;
 
 }
 
-<<<<<<< Updated upstream
+
 .footer-media-item:hover{
   border: 1px solid rgba(255, 255, 255);
 }
@@ -146,7 +124,7 @@ padding: 40px 0 20px;
   
   
 }
-=======
+
 .footer-media-item a{
   height: 100%;
   width: 100%;
@@ -167,17 +145,11 @@ padding: 40px 0 20px;
   cursor: pointer;
 }
 
->>>>>>> Stashed changes
 .footer-media-icon{
 
   width: 24px;
   height: 24px;
-<<<<<<< Updated upstream
- fill: var(--bgc-main)
- 
-=======
   fill: var(--bgc-main);
->>>>>>> Stashed changes
 }
 
 
