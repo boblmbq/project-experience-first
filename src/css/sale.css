@@ -1,11 +1,8 @@
-.sale-section {
-  background-color: #fbfbfb;
-}
-
 /*------------ MOBILE ------------------*/
 
 @media screen and (max-width: 767px) {
   .sale-section {
+    padding-top: 40px;
     padding-bottom: 80px;
   }
 
@@ -139,7 +136,7 @@
 @media screen and (min-width: 768px) {
   .sale-section-title {
     margin-bottom: 40px;
-  
+
     font-weight: 600;
     font-size: 40px;
     line-height: 1.1;
@@ -165,37 +162,36 @@
     font-weight: 400;
     font-size: 38px;
     line-height: 1.05;
-                  
+
     letter-spacing: -0.02em;
   }
 
   .sale-description {
     line-height: 1.29;
     letter-spacing: -0.01em;
-                
+
     color: var(--font-clear);
   }
 
   .sale-description.product-tag-desc {
     margin-bottom: 16px;
-                                
+
     letter-spacing: -0.02em;
- }
+  }
 
   .watch-sale-price {
     display: inline-block;
-  
+
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
   }
 
-
-        /* OLD PRICE NEED ADJUSTEMENT  */
+  /* OLD PRICE NEED ADJUSTEMENT  */
 
   .sale-old-price {
     margin-left: 8px;
-  
+
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
@@ -209,11 +205,11 @@
 
   .sale-watch-subtitle {
     margin-bottom: 17px;
-  
+
     font-weight: 400;
     font-size: 18px;
     line-height: 1.33;
-  
+
     letter-spacing: -0.02em;
     text-transform: uppercase;
   }
@@ -226,24 +222,24 @@
     content: '';
     display: block;
     margin-bottom: 8px;
-    
+
     width: 100%;
     border: 1px solid var(--bgc-hero);
   }
-    
+
   .sale-watch-subtitle.decoration-line::after {
     content: '';
     position: absolute;
     right: 0;
     top: 50%;
-    
+
     display: inline-block;
     margin-left: auto;
     width: 16px;
     border: 1px solid var(--bgc-hero);
   }
 
-  .watch-item-description {    
+  .watch-item-description {
     max-width: 572px;
 
     margin-left: auto;
@@ -251,6 +247,7 @@
   }
 
   .sale-section {
+    padding-top: 64px;
     padding-bottom: 128px;
   }
 }
@@ -258,6 +255,10 @@
 /*------------ DESKTOP ------------------*/
 
 @media screen and (min-width: 1280px) {
+  .sale-section {
+    background-color: #fbfbfb;
+  }
+
   .sale-desktop-container {
     display: flex;
     justify-content: center;
@@ -276,14 +277,13 @@
   .watch-sale-gallery {
     margin: 0;
   }
-  
- .sale-section {
-   padding-top: 80px;
-   padding-bottom: 160px;
- }
-  
- .watch-item-description li:nth-child(2n) {
-   margin-bottom: 20px;
- }
 
+  .sale-section {
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
+
+  .watch-item-description li:nth-child(2n) {
+    margin-bottom: 20px;
+  }
 }
