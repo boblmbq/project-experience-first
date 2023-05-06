@@ -101,7 +101,9 @@ padding: 40px 0 20px;
   border-radius: 10px;
 
 }
-.footer-media-icon-item{
+.footer-media-icon{
+  width: 24px;
+  height: 24px;
   stroke: var(--bgc-main);
 }
 
@@ -168,6 +170,7 @@ color: var(--bgc-main);
   }
   .footer-media-list{
       margin: 0;
+      gap: 16px;
   }
   .footer-bottom-wrapper{
     flex-direction: row;
@@ -181,6 +184,11 @@ color: var(--bgc-main);
     width: 44px;
     height: 44px;
   }  
+  .footer-media-icon{
+    width: 28px;
+    height: 28px;
+    
+  }
 }
 
 @media screen and (min-width:1280px){
@@ -190,4 +198,8 @@ color: var(--bgc-main);
   margin-right: 12px;
 
 }
+.footer{
+  background:var(--bgc-pull);
+  padding: 104px 0 32px;
+  }
 }
