@@ -18,7 +18,7 @@
     gap: 40px;
 }
 .catalog-item {
-    overflow: hidden;
+    overflow: hidden; 
 }
 .catalog-item:is( :hover, :focus) .catalog-popup {
     transform: translate(0);
@@ -26,9 +26,10 @@
 .catalog-wrap-img {
     position: relative;
     overflow: hidden;
+    width: 335px;
+    height: 360px;
     margin-bottom: 14px;
-}
-.catalog-img {
+    /* padding: 43px 30px; */
 }
 .catalog-popup {
     padding: 40px;
@@ -121,6 +122,10 @@
     .catalog-list {
         gap: 40px 32px;
     }
+    .catalog-wrap-img {
+        width: 336px;
+        height: 360px;
+    }
     .catalog-img-desc {
         display: none;
     }
@@ -137,8 +142,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-    }
     .catalog {
         margin-top: 160px;
         margin-bottom: 160px;
@@ -151,7 +154,9 @@
         gap: 64px 24px;
     }
     .catalog-wrap-img {
-
+        width: 276px;
+        height: 325px;
+        /* padding: 25px 0; */
     }
     .catalog-img {
         width: calc((100% - 3*24px)/4);
