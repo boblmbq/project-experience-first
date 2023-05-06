@@ -7,6 +7,7 @@
 }
 .footer a{
   color: inherit;
+ 
 }
 
 .footer{
@@ -19,10 +20,16 @@ padding: 40px 0 20px;
   flex-wrap: wrap;
   
 }
+.footer-media-item a{
+  height: 24px;
+}
+
+
   .footer-contact-logo{
       margin-bottom: 40px;
   }
 
+<<<<<<< Updated upstream
 .footer-contact-icon{
   fill: var(--bgc-main);
   stroke: var(--bgc-main);
@@ -31,6 +38,16 @@ padding: 40px 0 20px;
   
  
 }
+=======
+  .footer-contact-icon{
+    
+   
+    fill: #C6CDD1;
+    stroke: #C6CDD1;
+  }
+
+
+>>>>>>> Stashed changes
 
 /* .footer-contact-phone a{
   color: inherit;
@@ -88,13 +105,22 @@ padding: 40px 0 20px;
   color: var(--bgc-main);
 }
 
+.footer-meny-items :hover,
+.footer-meny-items :focus{
+  
+  text-shadow: #ffffff 1px 0 10px;
+  
+}
+
+
 .footer-media-list{
   display: flex;
   gap: 14px;
   margin: 40px 0 80px;
 }
+.footer-media-item {
+  
 
-.footer-media-item{
   width: 40px;
   height: 40px;
 
@@ -103,6 +129,7 @@ padding: 40px 0 20px;
 
 }
 
+<<<<<<< Updated upstream
 .footer-media-item:hover{
   border: 1px solid rgba(255, 255, 255);
 }
@@ -119,12 +146,38 @@ padding: 40px 0 20px;
   
   
 }
+=======
+.footer-media-item a{
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+.footer-media-item:hover,
+.footer-media-item a:focus{
+  border: 1px solid rgba(255, 255, 255);
+  cursor: pointer;
+}
+
+>>>>>>> Stashed changes
 .footer-media-icon{
 
   width: 24px;
   height: 24px;
+<<<<<<< Updated upstream
  fill: var(--bgc-main)
  
+=======
+  fill: var(--bgc-main);
+>>>>>>> Stashed changes
 }
 
 
@@ -160,13 +213,12 @@ color: var(--bgc-main);
   color: #C6CDD1;
 }
 
-@media screen and (min-width:375px){
-  /* .container{
-      padding:0 10px;
-      width: 355px;
-      
-
-  } */
+@media screen and (max-width:767px){
+  .footer-contact-icon{
+    width: 40px ;
+    height: 40px;
+  
+  }
 }
 
 
@@ -178,6 +230,12 @@ color: var(--bgc-main);
     padding-right: 16px;
     margin: 0;
    
+  }
+
+  .footer-contact-icon{
+    width: 50px ;
+    height: 50px;
+    
   }
   .footer-wrapper{
       flex-wrap: nowrap;
@@ -202,6 +260,9 @@ color: var(--bgc-main);
   .footer-terms-list{
     gap: 18px;
   }
+
+
+
   .footer-media-item{
     width: 44px;
     height: 44px;
