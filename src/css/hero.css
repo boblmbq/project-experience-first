@@ -286,6 +286,7 @@ stroke: var(--bgc-main);
     flex-direction: column;
     justify-content: flex-end;
     margin-right: 64px;
+    margin-bottom: 0;
     order: 3;
   }
 
