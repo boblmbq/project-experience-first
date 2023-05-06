@@ -29,14 +29,17 @@ padding: 40px 0 20px;
 
 
 .footer-contact-icon{
+  display: block;
   fill: var(--bgc-main);
   stroke: var(--bgc-main);
   width: 40px;
   height: 40px;
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
 .footer-contact-icon:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 
@@ -54,12 +57,13 @@ padding: 40px 0 20px;
 }
 
 .footer-contact-phone a, .footer-contact-location a{
-  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contact-phone a:hover, .footer-contact-location a:hover,
 .footer-contact-phone a:focus, .footer-contact-location a:focus{
-  display: block;
+ 
   /* text-shadow: #ffffff 1px 0 6px; */
   transform: scale(1.07);
 
@@ -101,14 +105,15 @@ padding: 40px 0 20px;
   
 }
 .footer-meny-items a{
-  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  transition: transform 250ms  ease-out ;
 }
 
 .footer-meny-items a:hover,
 .footer-meny-items a:focus{
-  display: block;
+  
   /* text-shadow: #ffffff 1px 0 10px; */
-  transform: scale(1.2);
+  transform: scale(1.1);
   
 }
 
@@ -127,7 +132,7 @@ padding: 40px 0 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
 
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms linear;
 
 }
 
