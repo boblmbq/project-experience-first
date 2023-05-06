@@ -1,19 +1,15 @@
-
+.about-container{
+    margin-bottom: 40px;
+}
 .about-title{
     margin-bottom: 40px;
 
-}
-.about-list{
-    margin-bottom: 40px;
 }
 .about-text{
  font-weight: var(--font-light);
  font-size: var(--font-z-lead);
  line-height: 18px;
  letter-spacing: -0.02em;
-}
-.about-list-item{
-    margin-bottom: 20px;
 }
 .about-list-item:not(:last-child){
     margin-bottom: 20px;
@@ -35,10 +31,7 @@
         display: flex;
     }
     .about-title{
-        margin-bottom: 0px;
         margin-right: 40px;
-        width: 174px;
-
 
         font-weight: var(--font-semibold);
         font-size: 40px;
