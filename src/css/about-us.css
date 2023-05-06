@@ -5,24 +5,25 @@
 .about-container{
     margin-bottom: 40px;
 }
-.about-title{
-    margin-bottom: 40px;
-
-}
 .about-text{
  font-weight: var(--font-light);
  font-size: var(--font-z-lead);
  line-height: 18px;
  letter-spacing: -0.02em;
 }
-.about-list-item:not(:last-child){
-    margin-bottom: 20px;
-}
+
 
 @media screen and (max-width: 767px) {
 .about-gif{
     width: 335px;
     height: 365px;
+}
+.about-list-item:not(:last-child){
+    margin-bottom: 20px;
+}
+.about-title{
+    margin-bottom: 40px;
+
 }
 }
 
