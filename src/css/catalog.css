@@ -17,22 +17,17 @@
   gap: 40px;
 }
 .catalog-item {
-    border-radius: 4px;
-    overflow: hidden; 
-    transition: transform 335ms ease-in-out;
-    transition: box-shadow 250ms ease-in-out;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 335ms ease-in-out, box-shadow 250ms ease-in-out;
 }
-.catalog-item:focus{
-    transform: scale( 1.05, 1.05 );
-    box-shadow: 0px 0px 27px 3px rgba(0,0,0,0.04);
-}
-.catalog-item:hover{
-        
-        transform: scale( 1.05, 1.05 );
-        box-shadow: 0px 0px 27px 3px rgba(0,0,0,0.54);
+.catalog-item:focus,
+.catalog-item:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0px 0px 27px 3px rgba(0, 0, 0, 0.54);
 }
 .catalog-item:active .catalog-popup {
-transform: translate(0);
+  transform: translate(0);
 }
 .catalog-wrap-img {
   position: relative;
