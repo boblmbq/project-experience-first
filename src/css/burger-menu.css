@@ -1,4 +1,4 @@
-@import url('styles.css');
+/* @import url('styles.css');
 
 @media screen and (max-width: 767px) {
   .wrapper-m-modal {
@@ -91,7 +91,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .wrapper-m-modal{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-}
+} */
