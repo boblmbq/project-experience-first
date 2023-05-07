@@ -135,6 +135,10 @@
   color: rgba(20, 20, 20, 0.4);
 }
 
+.modal-item-link{
+    text-decoration: underline;
+}
+
 .modal-close-button {
   position: absolute;
   top: 20px;
