@@ -274,4 +274,12 @@
   .modal-form label:nth-child(4n) {
     margin-bottom: 40px;
   }
+
+  .modal-form{
+    width: 508px;
+  }
+
+  .modal-item-span{
+    display: block;
+  }
 }
