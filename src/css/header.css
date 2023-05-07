@@ -76,7 +76,8 @@ header {
     font-size: 15px;
   }
 
-  header a, header address {
+  header a,
+  header address {
     padding-top: 20px;
     padding-bottom: 20px;
   }
