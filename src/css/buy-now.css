@@ -37,6 +37,10 @@
   letter-spacing: -0.02em;
   margin-bottom: 4px;
   color: var(--bgc-hero);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 255px;
 }
 
 .modal-price {
