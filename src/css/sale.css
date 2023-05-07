@@ -21,8 +21,7 @@
     letter-spacing: -0.02em;
   }
 
-  .watch-main-small {
-  }
+ 
 
   .watch-sale-gallery {
     display: flex;
@@ -37,8 +36,7 @@
     gap: 10px;
   }
 
-  .sale-gallery-item {
-  }
+ 
 
   .sale-watch-title {
     margin-bottom: 8px;
@@ -133,8 +131,7 @@
     flex-direction: row;
   }
 
-  .sale-gallery-item {
-  }
+ 
 }
 
 /*------------ TABLET ------------------*/
