@@ -14,7 +14,13 @@
 
 .footer-contact-logo {
   margin-bottom: 40px;
+  transition: transform 250ms ease-in-out;
 }
+
+.footer-contact-logo:hover{
+  transform: scale(1.08)
+}
+
 
 .footer-contact-icon {
   display: block;

@@ -4,13 +4,18 @@
       <ul class="footer-contact-list list">
         <li class="footer-contact-logo">
           <a
+            class="footer-link-logo"
             target="_blank"
             rel="noopener noreferrer nofollow"
             href="../index.html"
           >
-            <svg class="footer-contact-icon">
-              <use href="./public/sprite.svg#logo-desc"></use>
-            </svg>
+           <picture>
+            <source srcset="./public/logo-t-d-foot.png" media="(min-width:768px)">
+            <source srcset="./public/logo-mob-foot.png" media="(max-width:767px)">
+            
+            <img srcset="./public/logo-mob.png 40w, ./public/logo-t-d-foot.png 50w" sizes="(min-width:768px) 50px, (max-width:767px) 40px"  alt="logo">
+            
+           </picture>
           </a>
         </li>
         <li class="footer-contact-phone">
