@@ -19,6 +19,10 @@
     height: 100%;
   }
 
+  .m-modal{
+    border: none;
+  }
+
   .header-close-modal {
     display: flex;
     align-items: center;
