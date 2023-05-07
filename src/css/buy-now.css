@@ -13,6 +13,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 320px;
     background-color: var(--bgc-main);
     padding: 40px 40px;
 }
@@ -153,7 +154,7 @@
 
 @media screen and (max-width: 767px) {
     .modal-container {
-        width: 335px;
+        max-width: 335px;
         padding: 40px 20px;
         }
     
@@ -192,7 +193,7 @@
 
 @media screen and (min-width: 768px) {
     .modal-container{
-        width: 744px;
+        max-width: 744px;
     }
 
     .modal-input {
@@ -202,7 +203,7 @@
 
 @media screen and (min-width: 1280px) {
     .modal-container{
-        width: 904px;
+        max-width: 904px;
     }
 
     .modal-input {
