@@ -80,9 +80,9 @@
 
     gap: 14px;
 
-    top: 50%;
+    top: 253px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
   }
 }
 
