@@ -1,9 +1,98 @@
+@import url('./styles.css');
 
+header {
+  background-color: var(--bgc-hero);
+}
+.header-logo-link {
+  display: flex;
+
+  font-weight: var(--font-regular);
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--bgc-main);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-burger {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+}
+.header-burder-svg {
+  fill: #fff;
+}
+
+.header-link-site {
+  display: flex;
+  gap: 40px;
+}
+
+.site-link {
+  display: block;
+  font-weight: var(--font-regular);
+  font-size: 9px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: var(--bgc-main);
+}
+
+.header-address-num {
+  display: block;
+  font-weight: var(--font-regular);
+  font-size: 9px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: var(--bgc-main);
+
+  background-color: var(--bgc-pull);
+  padding: 18px 35px;
+  border-radius: 8px;
+}
 
 @media screen and (max-width: 767px) {
+  address {
+    display: none;
+  }
+  .header-link-site {
+    display: none;
+  }
+  header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .header-burger {
+    display: none;
+  }
+
+  .header-logo-link {
+    font-size: 15px;
+  }
+
+  header a,
+  header address {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header-container {
+    display: flex;
+  }
+
+  .header-logo-link {
+    margin-right: 80px;
+  }
+
+  address {
+    margin-left: auto;
+  }
 }
 
 @media screen and (min-width: 1280px) {

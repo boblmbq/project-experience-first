@@ -14,6 +14,7 @@ ul {
   padding: 0;
   list-style: none;
 }
+
 li {
   list-style: none;
 }
@@ -25,8 +26,11 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration:none;
+  color: inherit;
+  font-style: normal;
 }
+
 
 button {
   cursor: pointer;
@@ -34,7 +38,7 @@ button {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
