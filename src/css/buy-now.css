@@ -193,7 +193,7 @@
 
 @media screen and (min-width: 768px) {
     .modal-container{
-        max-width: 744px;
+        min-width: 744px;
     }
 
     .modal-input {
@@ -203,7 +203,7 @@
 
 @media screen and (min-width: 1280px) {
     .modal-container{
-        max-width: 904px;
+        min-width: 904px;
     }
 
     .modal-input {
