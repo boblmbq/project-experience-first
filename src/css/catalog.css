@@ -29,6 +29,13 @@
     height: 360px;
     margin-bottom: 14px;
 }
+.catalog-img {
+    display: flex;
+    justify-content: center;
+}
+img { 
+    width: 100%;
+}
 .catalog-popup {
     padding: 40px;
     position: absolute;
@@ -154,9 +161,6 @@
     .catalog-wrap-img {
         width: 276px;
         height: 325px;
-    }
-    .catalog-img {
-        width: calc((100% - 3*24px)/4);
     }
     .catalog-img-desc {
         display: block;
