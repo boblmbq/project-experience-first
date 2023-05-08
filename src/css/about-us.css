@@ -62,7 +62,7 @@
     letter-spacing: -0.02em;
   }
 
-  .about-gif {
+  img.about-gif {
     width: 704px;
     height: 465px;
   }
@@ -81,7 +81,7 @@
   .about-list-item:last-child {
     width: 380px;
   }
-  .about-gif {
+  img.about-gif {
     width: 892px;
     height: 500px;
     margin-left: auto;
