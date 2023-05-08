@@ -41,6 +41,11 @@ header {
   color: var(--bgc-main);
 }
 
+.site-link:hover {
+  transition: transform 250ms ease-in-out;
+  transform: scale(1.1);
+}
+
 .header-address-num {
   display: block;
   font-weight: var(--font-regular);
@@ -61,6 +66,7 @@ header {
   .header-link-site {
     display: none;
   }
+  
   header {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -87,6 +93,11 @@ header {
 
   .header-logo-link {
     margin-right: 80px;
+  }
+
+  .site-link:hover {
+    transition: transform 250ms ease-in-out;
+    transform: scale(1.1);
   }
 
   address {
