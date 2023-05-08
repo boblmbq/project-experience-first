@@ -16,6 +16,8 @@
   flex-wrap: wrap;
   gap: 40px;
 }
+
+
 .catalog-item {
   padding-bottom: 6px;
 
@@ -27,11 +29,18 @@
     cursor: pointer;
 }
 
-.catalog-link:hover,
-.catalog-link:focus {
+.catalog-item:hover,
+.catalog-item:focus {
   transform: scale(1.03);
   box-shadow: -1px 2px 8px 1px rgba(0, 0, 0, 0.59);
 
+.catalog-link {
+  display: block;
+}
+
+.catalog-item:focus .catalog-popup,
+.catalog-item:active .catalog-popup {
+  transform: translate(0, 0);
 }
 .catalog-wrap-img {
   position: relative;
