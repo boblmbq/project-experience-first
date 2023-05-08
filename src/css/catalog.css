@@ -36,6 +36,9 @@
   border: 2px solid rgba(255, 255, 255, 0.1);
   fill: rgba(0, 0, 0, 0.1);
 }
+.catalog-icon:is(:hover, :focus) {
+  fill: rgba(255, 0, 0, 0.6);
+}
 .catalog-img {
   display: flex;
   justify-content: center;
@@ -73,6 +76,7 @@
 }
 .catalog-wrap-text {
   width: 276px;
+  padding: 0 10px;
 }
 .catalog-text {
   margin-bottom: 4px;
