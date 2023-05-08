@@ -227,7 +227,7 @@
       <section class="about-us" id="About">
   <div class="container">
     <div class="about-container">
-      <h2 class="about-title">About us</h2>
+      <h2 class="about-title" id="about-us">About us</h2>
       <ul class="about-list list">
         <li class="about-list-item">
           <p class="about-text">
@@ -240,7 +240,7 @@
         <li class="about-list-item">
           <p class="about-text">
             At our premium watch collection, we believe that a watch is more
-            than just a timekeeping device – it's a statement piece that
+            than just a timekeeping device &#8211; it's a statement piece that
             reflects your personality and style. So why settle for anything less
             than the best? Browse our collection today and discover the perfect
             watch for you.
@@ -250,7 +250,7 @@
     </div>
     <img
       class="about-gif"
-      src="../img/about-us/clock-gif.gif"
+      src="/project-experience-first/assets/clock-gif-aebc2176.gif"
       alt="clock-gif"
     />
   </div>
@@ -824,38 +824,34 @@
     </h3>
     <ul class="list new-watches-list">
       <li>
-        <picture>
-          <source
-            media="(max-width: 767px)"
-            srcset="/project-experience-first/assets/img1-x3-b2c6976c.jpg "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="/project-experience-first/assets/img1-x2-38ffe422.jpg "
-          />
-          <source
-            media="(min-width: 1280px)"
-            srcset="/project-experience-first/assets/img1-x1-75465b9f.jpg "
-          />
-          <img src="/project-experience-first/assets/img1-x1-75465b9f.jpg" alt="img1" />
-        </picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="/project-experience-first/assets/img1-x3-b2c6976c.jpg "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/project-experience-first/assets/img1-x2-38ffe422.jpg "
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/project-experience-first/assets/img1-x1-75465b9f.jpg "
+        />
+        <img src="/project-experience-first/assets/img1-x1-75465b9f.jpg" alt="img1" />
       </li>
       <li>
-        <picture>
-          <source
-            media="(max-width: 767px)"
-            srcset="/project-experience-first/assets/img2-x3-28e78a69.jpg "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="/project-experience-first/assets/img2-x2-b150bbb1.jpg "
-          />
-          <source
-            media="(min-width: 1280px)"
-            srcset="/project-experience-first/assets/img2-x1-faa755d0.jpg "
-          />
-          <img src="/project-experience-first/assets/img2-x1-faa755d0.jpg" alt="img2" />
-        </picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="/project-experience-first/assets/img2-x3-28e78a69.jpg "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/project-experience-first/assets/img2-x2-b150bbb1.jpg "
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/project-experience-first/assets/img2-x1-faa755d0.jpg "
+        />
+        <img src="/project-experience-first/assets/img2-x1-faa755d0.jpg" alt="img2" />
       </li>
     </ul>
   </div>
@@ -989,7 +985,7 @@
 
     </main>
 
-    <footer class="foot-wr">
+    <footer class="footer">
   <div class="footer-container container">
     <div class="footer-wrapper">
       <ul class="footer-contact-list list">
@@ -1015,7 +1011,6 @@
                 srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADJSURBVHgBjZHBDYMwDEUzAiN0hI6QDRiBbtBu0m7Q3rixQiZAQXCCS45IMAAih/wmaiK1qYF8yYqU+Nk/NmOEAHAbAh/dWYo8FKs4gk421Bdg/CmPwBdouQJ8C7pgR8uyiBSLCIXWdcU0TajrGlLK3OdmpMVhGFBVVT6Oo2jbljJwc9A1vu26Dg4qy5L3fR8/P0O3zLVXSp2bpjHzPENrHQZSRJByuX9/dQPwCQa06H3id/mGtLizS0F0UqTFhH1yliKb+PCA2ILearC+q3RSN0UAAAAASUVORK5CYII= 40w, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATGSURBVHgBzVlLTiNJEI1qGvETYA/skFBxAQR7JMwJZm6Ab0AfAKntOUEzEhsW2H2CnhVbd4sVK3rDDo09AhYIgc3/I3BMPFemSXuq7KqssttPCmVmlZ0Zr+KTP6IegZlTIp9FSiJV9lAWKYi4NOgwCGjlg/CZBhWi3JL66mFRoEGDKLUewgp++ESDAkXCBnVVuvSrASU4Oupt7RLFhEMxIUqUpXApGthn7AXHcSpkiQ8UA+xlHpeiQZNgow1Zp18BIZHh6Kh3eIZEkSJLWFlEDWiTOk1LmM8A9NnfDCZEihwP9YD6P9QvyGBZTgb1gHaGeg32Um2Zk4NfzMROxWGIxHUpU3mzrHMrqQxFROhgl843yC5Fcpvo4HZ82hp/UESEmhDZW0IckpdZkgQH6FIjb4KsUUiEtcg3ikdCW6MdjiHeDwXPz8+pm5ubDYqArhZhb/bOUXR8J0/5Nd2VMd7/LCHj0OvrKz8+PtLDw4MjZe36+npheXk5lFU+dnqpXCpHdiiK/CuSIUNhA443RIMAgcDT0xMIgAwLmdTLy8vv8puvFAIfu7y3TYUV8e+GAqLoD/LItAQ2CLy9vTniRlCaDEtAdDtLIYkExgjbLQgbuLq62jKaf1PbahcWgPK1Wg2/darVKgRtRqmEpb26s7OzGmZMJ4DEEnlZKjKg3Pb2dnVzc/M31ReSBJb607CAuIu2QOPLj4+P09zcnG9fYq1GlyMjI53iBO/WPviQwMDfyBIHBwc0PT2d3t3dhX8TUqhYYAv+L8FL+uvji6OcnZ0N7EsIQKCP20G+YAw/17J2qdvbWzo5OaF0Ok1TU1PNlezd3d0XcaEaXEfKJpmJiYmGsjFQ1LHYQkSskaUYS+mjoyOQ4FQqhTKzv7+fwXOp1y4vL4uKhLaG47ouxUBFJK8bTSIq1VqfNcHfRVmGNbTMzMw0+5MJ7qsOZAQ4XAoWiYGcuTU2LZIjS5cCKpUKYsOBNURY6iCzKoq7eL+ysvJTCPzQZBYXFykGtrRLaTSIKJey3jMju9zf3zesICQcKR1VR6w0+724uMjDvebn52lycpIsUSG/SZq9I86f7O0zfEUyTlWEg3B2dsbHx8d8enrKcC8hxVhuKLTsxSUtlxAjMbDkxy7U6rdQKCxJdjkcGxuj0dFRQqnrMg+wlI5+hiw0NDTUvq76U1whpz5cluz2+0Be92NFBNjb2yuJ0quKiKNKRt0ggHnD7+81eZ5Ghe3OwQAsexaCXnZbazUhPp8X5UumNTSh4eFhvwM3vcLFc7jvuqq7ZIc1SgqSmQ7Pz8/rMkNjz8D1emN32r5NZQ7YiyuxQY6ShBDYQNArAt3gtxe3Qag1X+gYAdjLPjh7gr+3B3SkvkICC8LlMGfCkU4a1R76L900X1FvkI9zsN0R7M072nXYp97+zNa1en+bxfZBGxZl7sflD7+fxJvBnFRwA/27YuB3qwSl3sF1qTYiWU7m65soc4w7ElsiCPor9reILcEMWcL66k2lYpyWJJV6kWq/kyViKcHGCUnMPjsuCMMg1mWosoreqfkdh4ZFcgtCW3DrPbtNbGRpUCDKfOLoqA4UCQ2OdptV5oAt60BAlMtxdyvgN/2dK2zAXswU+f3SFMqXek3gPzu7nwpusOdmAAAAAElFTkSuQmCC 50w"
                 sizes="(min-width:768px) 50px, (max-width:767px) 40px"
                 alt="logo"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOLSURBVHgBxZhLThtBEIarwSBei4kErMecINmyACcXSG6AbwA5AWbBOlYuYDhB2CGxiI0QEgseypIFGsMGxMN2xPshV/6aBwzO2HTbM+aTSt2ecXf/U1XdPdNEMcDMFmweVoRV2WMPNkPvDUTMhkRFIUIteg8wcIH1KFK38T2jQ90vZ6lbYLAfbI6kQfKhxiBZA1F1fvGgME9JggFsmMP61BvqDiUJBljizpmmJGDz0IbLoC4W/4xm89C2EitlRnfsHs3/FWA2tYeKKL9RXLC3hcVNPEsOe6E1od6kjKLzJYfN8s5pIfjlAri9veWLi4uKjoaeFuLkCW3Sowz7Ls2C5uGuvO6YHx4euFarqbOzMzo9Pf2wvb395ttOiqLF2ShypM+yUmoF7dZRz9DLhBAUhNHNzQ1dX1+7dnV15RrqWWlLJgLZS17ttQrhqm1tbQX/z8FKXjesnp6eFO6LEJa6CL28vHRFyvW7u7vM5ubm18nJyT9Nuq9FedAktLSzs2Pt7u7mUP0ML65DWAliMoEweMoVOjExQf39/VFdrDTpuix9vspBdJ5FMUeaiDeOjo54bGwsUygULP/acqVSIeQZI8/U+fk5DwwMNBPXihweuNwTEmeT5z1tDg8PGQMrCCTbtt33PczOFYirwtzJIB6U+4YsQZybm2EP5sggtBJCeEeNjo6S2Pj4+JzjOFY6na4dHx//hPfEg+694eFhMqAMWwh+uAL90Bp94EjohoaGJLxiIsSCuekBr+Xhvb8yKST3DHFD+/yL23gRuL+/5/39fT44OOCTkxNG3vHj46Pcqgb9Li4u5kulEhuSb1Sr/GUlcl/c2Nj4WK1Wf8FTJN4aHBwky7KUJHwqlRIPEq6p3t5ewlMHzWQ2l1ZXVzNTU1PSVnfPLcM+oW3tlcC3Wq2trRWRQ9MYSI2MjLDkk9RFMESqkLCAIq598XeiHOmTfhVan9RbrZBfCxDzW7wFcUoE9vX1cZQy8ra1DHsf7FnSZyFKnDZIeAervuzzz3t+qGx8IZDfVdan8+8U9k4PksKmTmHv7KXC/3suyoMm5CgupLMmg7QrMN6PJ/a82OixdsU5HEdoI0QWmwxoKjSZYzl0nOHoWWsisEBJ0sKLOjicRGgbBM6EPGdK8ieu7E0Wk4U4IE/dAoPNsRl71G1YPxeX6D1gL9StjoElDbS/b5IUmg0JrfqelV0nluPef1bLk7VjcyQeAAAAAElFTkSuQmCC"
               />
             </picture>
           </a>
@@ -1083,7 +1078,7 @@
     </div>
     <div class="footer-bottom-wrapper">
       <div class="footer-rights">
-        <p>&#169;2022 The Watch Spot. All rights reserved.</p>
+        <p>&#169; 2022 The Watch Spot. All rights reserved.</p>
       </div>
       <div class="footer-terms">
         <ul class="footer-terms-list list">
@@ -1199,7 +1194,8 @@
         <img
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADJSURBVHgBjZHBDYMwDEUzAiN0hI6QDRiBbtBu0m7Q3rixQiZAQXCCS45IMAAih/wmaiK1qYF8yYqU+Nk/NmOEAHAbAh/dWYo8FKs4gk421Bdg/CmPwBdouQJ8C7pgR8uyiBSLCIXWdcU0TajrGlLK3OdmpMVhGFBVVT6Oo2jbljJwc9A1vu26Dg4qy5L3fR8/P0O3zLVXSp2bpjHzPENrHQZSRJByuX9/dQPwCQa06H3id/mGtLizS0F0UqTFhH1yliKb+PCA2ILearC+q3RSN0UAAAAASUVORK5CYII="
           class="header-img-logo"
-          alt="logo of the firm"/>
+          alt="logo of the firm"
+        />
         thewatchspot
       </a>
 
