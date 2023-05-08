@@ -64,10 +64,6 @@ header {
   border-radius: 8px;
 }
 
-.header-address-num:hover {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 767px) {
   address {
     display: none;
@@ -75,7 +71,7 @@ header {
   .header-link-site {
     display: none;
   }
-
+  
   header {
     padding-top: 32px;
     padding-bottom: 32px;
