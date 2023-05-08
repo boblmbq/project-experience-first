@@ -1,6 +1,6 @@
 .catalog {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .catalog-title {
   margin-bottom: 40px;
@@ -142,8 +142,8 @@
 
 @media screen and (min-width: 768px) {
   .catalog {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    margin-top: 128px;
+    margin-bottom: 128px;
   }
   .catalog-title {
     font-size: 40px;
@@ -179,8 +179,8 @@
 
 @media screen and (min-width: 1280px) {
   .catalog {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    margin-top: 160px;
+    margin-bottom: 160px;
   }
   .catalog-title {
     margin-bottom: 64px;

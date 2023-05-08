@@ -13,6 +13,7 @@
 }
 
 .footer-contact-logo {
+
   margin-bottom: 40px;
   transition: transform 250ms ease-in-out;
 }
@@ -175,7 +176,7 @@
     height: 40px;
   }
 
-  .footer-contact-logo {
+  .footer-contact-logo{
     width: 40px;
   }
 }
@@ -189,9 +190,9 @@
    
   } */
 
-  .footer-contact-logo {
-    width: 50px;
-  }
+.footer-contact-logo{
+  width: 50px;
+}
 
   .footer-contact-icon {
     width: 50px;
