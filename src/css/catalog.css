@@ -144,7 +144,6 @@
   font-size: 14px;
   line-height: 1.29;
 }
-
 @media screen and (min-width: 768px) {
   .catalog {
     margin-top: 128px;
@@ -181,7 +180,6 @@
     line-height: 1.33;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .catalog {
     margin-top: 160px;
