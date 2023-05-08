@@ -1,16 +1,20 @@
-<dialog open class="wrapper-m-modal m-modal" id="modal">
-  <div class="modal-container">
+<div class="wrapper-m-modal is-hidden is-open" data-modal-mob="">
+  <div class="modal-container-mob container">
     <div class="modal-head-wrapp">
-      <a href="../index.html" class="link header-logo-modal">
-        <span class="header-logo-ico">
-          <svg class="svg-modal" width="14" height="14">
-            <use href="/sprite.svg#logo-tab"></use>
-          </svg>
-        </span>
-        <p>thewatchspot</p>
+      <a href="../index.html" class="link header-logo-link">
+        <img
+          src="./public/logo-mob.png"
+          class="header-img-logo"
+          alt="logo of the firm"
+        />
+        thewatchspot
       </a>
 
-      <button type="submit" class="header-close-modal close-button">
+      <button
+        type="submit"
+        class="header-close-modal js-close-menu"
+        data-modal-close-mob
+      >
         <svg class="header-close-svg">
           <use href="../public/sprite.svg#close"></use>
         </svg>
@@ -18,9 +22,9 @@
     </div>
 
     <ul class="header-link-modal">
-      <li><a href="" class="site-link">About us</a></li>
-      <li><a href="" class="site-link">Catalog</a></li>
-      <li><a href="" class="site-link">Sale</a></li>
+      <li><a href="" class="site-link-modal">About us</a></li>
+      <li><a href="" class="site-link-modal">Catalog</a></li>
+      <li><a href="" class="site-link-modal">Sale</a></li>
     </ul>
   </div>
-</dialog>
+</div>
