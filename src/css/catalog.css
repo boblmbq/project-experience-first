@@ -1,6 +1,6 @@
 .catalog {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .catalog-title {
   margin-bottom: 40px;
@@ -16,7 +16,6 @@
   flex-wrap: wrap;
   gap: 40px;
 }
-
 
 .catalog-item {
   padding-bottom: 6px;
@@ -35,6 +34,10 @@
 .catalog-item:focus {
   transform: scale(1.03);
   box-shadow: -1px 2px 8px 1px rgba(0, 0, 0, 0.59);
+}
+
+.catalog-link {
+  display: block;
 }
 
 .catalog-item:focus .catalog-popup,
@@ -146,8 +149,8 @@
 }
 @media screen and (min-width: 768px) {
   .catalog {
-    margin-top: 128px;
-    margin-bottom: 128px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
   .catalog-title {
     font-size: 40px;
@@ -182,8 +185,8 @@
 }
 @media screen and (min-width: 1280px) {
   .catalog {
-    margin-top: 160px;
-    margin-bottom: 160px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .catalog-title {
     margin-bottom: 64px;
