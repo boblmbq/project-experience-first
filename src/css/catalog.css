@@ -16,11 +16,6 @@
   flex-wrap: wrap;
   gap: 40px;
 }
-
-/* .catalog-item {
-  overflow: hidden;
-} */
-
 .catalog-item {
   padding-bottom: 6px;
 
@@ -29,6 +24,7 @@
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .catalog-item:hover,
@@ -37,10 +33,6 @@
   box-shadow: -1px 2px 8px 1px rgba(0, 0, 0, 0.59);
 
 }
-
-/* .catalog-item:is(:hover, :focus) .catalog-popup {
-  transform: translate(0);
-} */
 .catalog-wrap-img {
   position: relative;
   overflow: hidden;
