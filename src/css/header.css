@@ -3,6 +3,11 @@
 header {
   background-color: var(--bgc-hero);
 }
+
+.header-img-logo {
+  margin-right: 4px;
+}
+
 .header-logo-link {
   display: flex;
 
@@ -71,10 +76,7 @@ header {
   .header-burger {
     display: none;
   }
-  
-  .header-img-logo{
-    margin-right: 4px;
-  }
+
   .header-logo-link {
     font-size: 15px;
   }
