@@ -21,14 +21,14 @@
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .catalog-item:hover,
 .catalog-item:focus {
   transform: scale(1.03);
   box-shadow: -1px 2px 8px 1px rgba(0, 0, 0, 0.59);
-}
+
 .catalog-wrap-img {
   position: relative;
   overflow: hidden;
@@ -63,6 +63,7 @@
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .catalog-item-link:active .catalog-popup,
 .catalog-item-link:focus .catalog-popup {
@@ -145,6 +146,7 @@
 }
 
 @media screen and (min-width: 768px) {
+
   .section-catalog {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -182,6 +184,7 @@
 }
 
 @media screen and (min-width: 1280px) {
+
   .section-catalog {
     padding-top: 80px;
     padding-bottom: 80px;
