@@ -6,8 +6,6 @@
 
     z-index: 2;
 
-    transform: translateY(0px);
-
     top: 0;
     width: 100vw;
     height: 100vh;
@@ -17,20 +15,20 @@
 
     background-color: var(--bgc-pull);
 
-    transition-duration: 400ms;
-    transition-property: transform, opacity;
-    transition-timing-function: ease-in-out;
+    transition: top 750ms cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 750ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .wrapper-m-modal.is-hidden {
-    transform: translateY(-40px);
+    top: -100%;
+    opacity: 0;
   }
 
-  .is-hidden {
+  /* .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-  }
+  } */
 
   .modal-container-mob {
     position: relative;
