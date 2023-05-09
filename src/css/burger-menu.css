@@ -62,6 +62,7 @@
 
   .header-close-svg {
     stroke: var(--bgc-main);
+    fill: var(--bgc-main);
     height: 24px;
     width: 24px;
   }
