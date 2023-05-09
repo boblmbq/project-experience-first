@@ -71,7 +71,7 @@
     width: 704px;
     height: 465px;
   }
-}
+} 
 
 @media screen and (min-width: 1280px) {
   .about-list-item:not(:last-child) {
