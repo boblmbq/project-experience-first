@@ -1,7 +1,4 @@
-.catalog {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
+
 .catalog-title {
   margin-bottom: 40px;
   font-weight: 600;
@@ -24,14 +21,13 @@
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .catalog-item:hover,
 .catalog-item:focus {
   transform: scale(1.03);
   box-shadow: -1px 2px 8px 1px rgba(0, 0, 0, 0.59);
-
 }
 .catalog-wrap-img {
   position: relative;
@@ -138,10 +134,18 @@
 .catalog-btn:is(:hover, :focus) {
   font-size: 14px;
   line-height: 1.29;
+  border: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 767px){
+  .section-catalog {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .catalog {
+  .section-catalog {
     padding-top: 64px;
     padding-bottom: 64px;
   }
@@ -178,7 +182,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .catalog {
+  .section-catalog {
     padding-top: 80px;
     padding-bottom: 80px;
   }

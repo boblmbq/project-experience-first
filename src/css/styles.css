@@ -87,4 +87,20 @@ body {
   font-size: var(--font-z-lead);
 }
 
+ @media screen and (max-width: 1280px) {
+  section {
+    background-color: #fbfbfb;
+  }
+}
 
+@media screen and (min-width: 1280px) {
+  .new-watches {
+    background-color: #fff;
+  }
+}
+
+
+
+.section-catalog{
+  background-color: #fff;
+}

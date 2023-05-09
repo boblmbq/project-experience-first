@@ -1,7 +1,3 @@
-.about-us {
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
 .about-container {
   margin-bottom: 40px;
 }
@@ -17,6 +13,11 @@
     width: 335px;
     height: 365px;
   }
+
+  .about-us {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
   .about-list-item:not(:last-child) {
     margin-bottom: 20px;
   }
@@ -29,6 +30,10 @@
   .about-container {
     display: flex;
     margin-bottom: 40px;
+  }
+  .about-us {
+    padding-bottom: 64px;
+    padding-top: 64px;
   }
   .about-list {
     display: flex;
@@ -72,6 +77,11 @@
   .about-list-item:not(:last-child) {
     margin-right: 40px;
   }
+
+  .about-us {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
   .about-title {
     margin-right: 110px;
   }
@@ -94,4 +104,3 @@
     margin-left: auto;
   }
 }
-
