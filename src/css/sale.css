@@ -118,7 +118,7 @@
   }
 }
 
-@media screen and (max-width: 340px) {
+/* @media screen and (max-width: 340px) {
   .watch-sale-gallery {
     flex-direction: column-reverse;
     justify-content: center;
@@ -130,7 +130,7 @@
   }
 
  
-}
+} */
 
 /*------------ TABLET ------------------*/
 
