@@ -1,7 +1,6 @@
 @media screen and (max-width: 767px) {
   .new-watches {
-    margin: 80px 0 80px 0;
-    padding: 0;
+    padding: 40px 0 40px 0;
   }
 
   .new-watches-title {
@@ -36,8 +35,7 @@
 
 @media screen and (min-width: 768px) {
   .new-watches {
-    margin: 128px 0 128px 0;
-    padding: 0;
+    padding: 64px 0 64px 0;
   }
 
   .new-watches-title {

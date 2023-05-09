@@ -1,6 +1,3 @@
-
-
-
 .sale-section {
   background-color: #fbfbfb;
 }
@@ -9,6 +6,7 @@
 
 @media screen and (max-width: 767px) {
   .sale-section {
+    padding-top: 40px;
     padding-bottom: 80px;
   }
 
@@ -120,7 +118,7 @@
   }
 }
 
-@media screen and (max-width: 340px) {
+/* @media screen and (max-width: 340px) {
   .watch-sale-gallery {
     flex-direction: column-reverse;
     justify-content: center;
@@ -132,7 +130,7 @@
   }
 
  
-}
+} */
 
 /*------------ TABLET ------------------*/
 
@@ -251,6 +249,7 @@
 
   .sale-section {
     padding-bottom: 128px;
+    padding-top: 64px;
   }
 }
 
