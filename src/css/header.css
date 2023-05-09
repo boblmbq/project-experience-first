@@ -44,6 +44,15 @@ header {
   line-height: 1.33;
   text-transform: uppercase;
   color: var(--bgc-main);
+  transition: transform 200ms ease-in-out;
+}
+
+.site-link:hover {
+  transform: scale(1.08);
+}
+
+.header-address-num:hover {
+  text-decoration: underline;
 }
 
 .header-address-num {
