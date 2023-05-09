@@ -1,3 +1,6 @@
+
+
+
 @media screen and (max-width: 767px) {
   .new-watches {
     padding: 80px 0 80px 0;
@@ -75,8 +78,7 @@
 
   .new-watches-title {
     font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 300;
+    font-weight: var(--);
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.06em;
