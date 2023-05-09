@@ -27,6 +27,10 @@ header {
   margin-left: auto;
   background-color: transparent;
   border: none;
+  position: relative;
+
+  height: 24px;
+  width: 24px;
 }
 .header-burder-svg {
   fill: #fff;

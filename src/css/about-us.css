@@ -1,3 +1,5 @@
+@import url('../css/styles.css');
+
 .about-container {
   margin-bottom: 40px;
 }
@@ -18,11 +20,18 @@
     padding-bottom: 40px;
     padding-top: 40px;
   }
+  
   .about-list-item:not(:last-child) {
     margin-bottom: 20px;
   }
+
   .about-title {
     margin-bottom: 40px;
+    font-weight: var(--font-semibold);
+    font-size: var(--font-z-h-main);
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: var(--bgc-pull);
   }
 }
 
