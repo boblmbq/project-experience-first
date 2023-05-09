@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>thewatchspot</title>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/project-experience-first/assets/apple-touch-icon-750c5fd5.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnBQkLDQNSj4F2AAAC80lEQVRIx4XVTWwVZRQG4GdmbltbsWC1prZcqTQgBoI/IGptUBFZiUSjIWokkcSFGxcu1GU3Lly5McGYWBJNTEwUFTUmhkQif0E2GohC/KHQ8mNpSlqg19reGRf3tp17Z7Tv7ptz3vec75zznQnohW47PGWF6y2MktO+sdtJyWFBL4HHveVeYdY3AUGe4ZR+nypHRbYYsCrrlYiFGjEjqDcHbvaYIcejYrddVmVDxBqs84JnPSA2LM5GaLbWoaj4queyttgSL3vFXTot96BJv0qybm0KUfEdnVn6Yq/Zqql6lUZ3+MX5vCJ1hlZk7x7abnPKPdFmq4ZqSWvQEVqUjX+/p+fos6QNesQ5PQ2z9A47Lc5kdZNNwpwcwnrHBs9bkzrP42EdCwkkYhs9IR9FfZKMRJ3AMi9pmTvPKKdaF9qo9f8ySFxnh56U8ZAfURnlKaOaLVcWi8VzmRTm6YktNqfokz7TbL0G/7jmmnET1hgVSySuKAnSArGVXqyOTgVDZvzkuJVGJbq0K1vtGQn+8rZBwfwVEjfYaWmKPu28+0S+8LszWjRp0qJVh1u1O+hstTqFCj2wTV9NccYUrHPOAUv1aKuxHfTl3MsIKwK36XPJBRdNKJkypaTodttEjunSmKIPG3BlrjuFSpVH9AsEAo/YoFWrJVo0uNN6ly1L0ad85LdU86oCJZPVUv5sk1ss0iiQKHhSKTUZ7PNdzXqpdmH2U2DQhNXVtsI9Nbf/w4f+rpm+urcQuGq/cmq4QlFqMnY7U7dWMq8xcMSgfHztB+HCApd8X3OexQkfm86stRyBxH4jGcdxAy7mLLVQKftp0JG6+LE9jubtRKE/sznM+NZYKofYPp/kLXbGomK3h7ISI6atrc7fVZ97z3hufHuj4rBHtWfrcMppjDnqA1+ZzKef80bQy3a73FhvS8QaRKaVM62rYtKb3o2KnHTW3XUPTiAUK/Nf9Av6vW8mGlJMnHBAQVf9PyLI/lQruGyv1+0xfdi/wELbU++BLnwAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDUtMDlUMTE6MTM6MDMrMDA6MDCN3Q57AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA1LTA5VDExOjEzOjAzKzAwOjAw/IC2xwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==" />
     <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnBQkLDQIliLHgAAABSElEQVQozzXQv0uVcRzF8df3+zy3vCqFxSWXe6eISIyUBnFwsYKgKOgHCW3+FW5NtghuNjU0BUVQDrpIawSBF3KpcHEoqeDGpUf8+XwdHu92+Jw3n3M4YbLmiTmXZCSlJIpQ2rTgVdZ8alFLJKkZM67QFQjOm9IJkxtGIKmbdV+/dc/8rr6wFV2ubO55rB/XTEtSBbSirAocNSOXJMEN53pAr8+QWQ3JIbhozJFSqoAkeuQ6Cst27Oka1XJBTZKTTHgg4q9P6q4Ydse0tgUHYnLGbfv+2xXcsibpM+iUVV1Bzq4lmYduGtZQaKD0zmcBMTiwbUvboNPq7hrAF2+VFUAQ5dp+gFzwx0udk6miIwj+WZMEHHrta29J0WYlgo/a2PHGB4Tq/DNr7pvSR1BY9917K/Z6duF51tzQcdVZgq5vfp0EYdu8F8cIaWUyd2Oe/gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wNS0wOVQxMToxMzowMiswMDowMCuqBc8AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDUtMDlUMTE6MTM6MDIrMDA6MDBa971zAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC" />
@@ -28,7 +29,8 @@
     <link rel="stylesheet" href="/project-experience-first/assets/index-cfef397c.css">
   </head>
   <body>
-    <header>
+    <div data-aos="fade-up">
+<header>
   <div class="container header-container">
     <nav class="header-nav">
       <a href="../index.html" class="link header-logo-link">
@@ -60,10 +62,11 @@
     </address>
   </div>
 </header>
-
+</div>
 
     <main>
-      <section class="hero">
+      <div data-aos="fade-up">
+  <section class="hero">
   <div class="container">
     <div class="hero-main">
       <h1 class="hero-title">Welcome to our collection of premium watches</h1>
@@ -234,8 +237,10 @@
     </div>
   </div>
 </section>
+</div>
 
-      <section class="about-us" id="About">
+      <div data-aos="fade-up">
+<section class="about-us" id="About">
   <div class="container">
     <div class="about-container">
       <h2 class="about-title" id="about-us">About us</h2>
@@ -266,8 +271,9 @@
     />
   </div>
 </section>
+</div>
 
-      
+      <div data-aos="fade-up">
 <section class="section-catalog">
 
   <div class="catalog container">
@@ -854,8 +860,10 @@
     </div>
   </div>
 </section>
+</div>
 
-      <section class="new-watches">
+      <div data-aos="fade-up">
+<section class="new-watches">
   <div class="container">
     <h2 class="new-watches-title">New watches</h2>
     <h3 class="new-watches-subtitle">
@@ -901,8 +909,9 @@
     </ul>
   </div>
 </section>
-
-      <section class="sale-section">
+</div>
+      <div data-aos="fade-up">
+<section class="sale-section">
   <div class="container">
     <h2 class="sale-section-title" id="sale">Sale</h2>
 
@@ -1027,10 +1036,11 @@
     </div>
   </div>
 </section>
-
+</div>
     </main>
 
-    <footer class="footer">
+    <div data-aos="fade-up">
+<footer class="footer">
   <div class="footer-container container">
     <div class="footer-wrapper">
       <ul class="footer-contact-list list">
@@ -1142,7 +1152,7 @@
     </div>
   </div>
 </footer>
-
+</div>
     <div class="backdrop is-hidden" data-modal>
   <div class="modal-container">
     <button type="button" class="modal-close-button" data-modal-close>
@@ -1268,4 +1278,8 @@
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
