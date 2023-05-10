@@ -87,7 +87,7 @@ body {
   font-size: var(--font-z-lead);
 }
 
- @media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   section {
     background-color: #fbfbfb;
   }
@@ -99,8 +99,10 @@ body {
   }
 }
 
-
-
-.section-catalog{
+.section-catalog {
   background-color: #fff;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
